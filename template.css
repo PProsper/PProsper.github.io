@@ -1,3 +1,5 @@
+
+
 html {
   background-color: black;
   background: cover;
@@ -76,7 +78,7 @@ p span{
 
 #goal{
   position: absolute;
-  top: 120%;
+  top: 105%;
   left: 42%;
   right: 32%;
   display: inline-block;
@@ -113,20 +115,20 @@ p span{
 }
 img{
   display: inline-block;
-  height: 50px;
-  width: 50px;
-  padding: 8px;
+  height: 40px;
+  width: 40px;
+  padding: 4px;
 
 }
 #skill{
   position: absolute;
   display: block;
-  left: 72%;
-  right: 6%;
-  top: 110%;
+  left: 70%;
+  right: 5%;
+  top: 105%;
   border: 2px;
   border-style: dashed;
-  padding: 0px 2px 0px 2px;
+
 }
 ul li {
     list-style: none;
@@ -143,9 +145,13 @@ ul li {
 #soc{
   position: absolute;
   display: inline-block;
-  left: 42%;
-  top: 170%;
+  left: 45%;
+  top: 145%;
   border: 2px;
   border-style: dashed;
   padding: 5px 5px 5px 5px;
+}
+
+@media (min-width : 480px){
+
 }
