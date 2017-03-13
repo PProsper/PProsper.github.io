@@ -2,82 +2,82 @@
 
 html {
   background-color: #EBF5FB;
-  background: cover;
+  font-family: 'Oxygen', sans-serif;
+
 }
-#bar{
-  background-color: black;
+/*#bar{
+  background-color: #EBF5FB;
   width: 100%;
   font-family: 'Merriweather Sans', sans-serif;
-   display: inline-block;
+  display: inline-block;
+}*/
+
+.port{
+  position: absolute;
+  margin-top: 2%;
+  margin-left: 10%;
+  /*height: 60px;
+  width: 60px;*/
+  border: solid 3px;
+  border-radius: 15px;
+  border-color: rgba(245, 236,248, 1);
+  height: 140px;
+  width: 160px;
 }
-h1{
-    text-align: center;
-    font-size: 3.5em;
-    font-weight: bold;
-    color: rgba(255, 255, 255, .9)
-  }
-.nav{
-  position: relative;
-  margin-left: 30%;
-  width: 100%;
-  height: 50%;
-  padding: 0px 2px 2px 2px;
-}
-.links li{
+
+
+/*.links li{
   display: inline-block;
   list-style: none;
-  text-align: center;
   font-size: 14pt;
   border-radius: 5px;
   background-color: rgba(245, 236,248, 1);
   box-shadow: 2px 1px 12px .5px;
   padding: 10px 10px 10px 10px;
-}
-li a{
+}*/
+/*li a{
       text-decoration:none;
       color: black;
-}
+}*/
 body{
-  background-image: url(man.jpg);
-  background-image: cover;
   background-size: 100%;
-  height: 95%;
-  box-shadow: 1px 0px 40px 2px;
-  margin: 2% 1% 2% 1%;
+  margin: auto;
 }
-.port{
-  position: absolute;
-  top: 45%;
-  right:  78%;
-  border: solid 3px;
-  border-radius: 15px;
-  border-color: rgba(245, 236,248, 1);
-  height: 100px;
-  width: 120px;
-}
+
 #back{
   border-radius: 25px;
-  margin: 2% 2% 2% 2.5%;
+  margin: 0% 2% 4% 2.5%;
   background-color: rgba(255, 255, 255, .9);
   box-shadow: 1px 0px 40px 2px;
-  font-family: 'Merriweather Sans', sans-serif;
+  /*font-family: 'Merriweather Sans', sans-serif;*/
 }
-h2, h5{text-align: center;
+
+h1{
+  padding: 2%;
+  text-align: center;
+  }
+
+  h2, h5{
+  text-align: center;
+
 }
 #cont{
-  margin: 3% 60% 0% 10%;
+  margin: 15% 65% 0% 5%;
   line-height: 1.5;
   font-size: 16pt;
-  font-family: 'Merriweather Sans', sans-serif;
-  text-align: justify;
+  /*font-family: 'Merriweather Sans', sans-serif;*/
   background-color: rgba(149, 149, 149, 0);
+  display: flex;
 }
-p span{
-  font-weight: bold;
+p{
+  align-content: center;
+  /*font-weight: bold;*/
+
 }
 
 #goal{
   position: absolute;
+  justify-content: space-around;
   top: 105%;
   left: 42%;
   right: 32%;
@@ -85,64 +85,85 @@ p span{
   border: 1px;
   border-style: solid;
   padding: 2px 2px 2px 2px;
-  text-align: justify;
+
 }
 
 #mis{
+  height: 65%;
+  width: 28%;
   position: absolute;
-  top: 55%;
-  left: 42%;
+  justify-content: space-around;
+  top: 35%;
+  left: 38%;
   right: 32%;
-  display: inline-block;
   border: 1px;
   border-style: solid;
   padding: 5px 5px 5px 5px;
-  text-align: justify;
 }
 #vis{
+  height: 65%;
+  width: 28%;
   position: absolute;
-  top: 55%;
-  left: 70%;
+  justify-content: space-around;
+  top: 35%;
+  left: 68%;
   right: 5%;
-  display: inline-block;
+  /*display: inline-block;*/
   border: 1px;
   border-style: solid;
   padding: 5px 5px 5px 5px;
-  text-align: justify;
+
 }
 #intro, #exp, #con{
-   padding: 35px 35px 35px 35px;
+
+margin-top: 0%;
 }
-img{
+
+.logos{
   display: inline-block;
   height: 40px;
   width: 40px;
   padding: 4px;
-
 }
+
 #skill{
+  height: 110%;
+  width: 53%;
   position: absolute;
-  display: block;
-  left: 70%;
+  /*display: block;*/
+  left: 42%;
   right: 5%;
   top: 105%;
-  border: 2px;
-  border-style: dashed;
+  border: 1px;
+  border-style: solid;
 
 }
+#uls{
+  margin-top: 0%;
+  margin-left: 10%;
+  display: flex;
+}
+
+#design, #code, #db{
+padding: 0% 5% 5% 5%;
+align-items: center;
+}
+
 ul li {
     list-style: none;
-    display: inline-block;
+    /*display: inline-block;*/
 }
 .meter{
     display: inline-block;
     float: top;
 }
-.lev{
+/*.lev{
   display: inline-block;
   float: top;
-}
-#soc{
+}*/
+/*#soc{
+  height: 30%;
+  width: 20%;
   position: absolute;
   display: inline-block;
   left: 45%;
@@ -150,8 +171,8 @@ ul li {
   border: 2px;
   border-style: dashed;
   padding: 5px 5px 5px 5px;
-}
+}*/
 
-@media (min-width : 480px){
+/*@media (min-width : 480px){
 
-}
+}*/
