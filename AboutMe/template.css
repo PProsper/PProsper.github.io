@@ -14,15 +14,14 @@ html {
 
 .port{
   position: absolute;
-  margin-top: 2%;
   margin-left: 10%;
   /*height: 60px;
   width: 60px;*/
   border: solid 3px;
   border-radius: 15px;
   border-color: rgba(245, 236,248, 1);
-  height: 140px;
-  width: 160px;
+  height: 160px;
+  width: 180px;
 }
 
 
@@ -45,9 +44,10 @@ body{
 }
 
 #back{
+  height: 65em;
   border-radius: 25px;
   margin: 0% 2% 4% 2.5%;
-  background-color: rgba(255, 255, 255, .9);
+  background-color: rgba(255, 255, 255, .5);
   box-shadow: 1px 0px 40px 2px;
   /*font-family: 'Merriweather Sans', sans-serif;*/
 }
@@ -75,7 +75,7 @@ p{
 
 }
 
-#goal{
+/*#goal{
   position: absolute;
   justify-content: space-around;
   top: 105%;
@@ -86,37 +86,36 @@ p{
   border-style: solid;
   padding: 2px 2px 2px 2px;
 
-}
+}*/
 
 #mis{
-  height: 65%;
+  height: 45%;
   width: 28%;
   position: absolute;
   justify-content: space-around;
-  top: 35%;
+  top: 20%;
   left: 38%;
   right: 32%;
   border: 1px;
-  border-style: solid;
-  padding: 5px 5px 5px 5px;
+  /*border-style: solid;
+  padding: 5px 5px 5px 5px;*/
 }
 #vis{
-  height: 65%;
+  height: 45%;
   width: 28%;
   position: absolute;
   justify-content: space-around;
-  top: 35%;
+  top: 20%;
   left: 68%;
   right: 5%;
   /*display: inline-block;*/
   border: 1px;
-  border-style: solid;
-  padding: 5px 5px 5px 5px;
+  /*border-style: solid;
+  padding: 5px 5px 5px 5px;*/
 
 }
 #intro, #exp, #con{
-
-margin-top: 0%;
+padding: 2px 2px 2px 2px;
 }
 
 .logos{
@@ -127,15 +126,15 @@ margin-top: 0%;
 }
 
 #skill{
-  height: 110%;
+  height: 70%;
   width: 53%;
   position: absolute;
   /*display: block;*/
   left: 42%;
   right: 5%;
-  top: 105%;
-  border: 1px;
-  border-style: solid;
+  top: 65%;
+  /*border: 1px;
+  border-style: solid;*/
 
 }
 #uls{
