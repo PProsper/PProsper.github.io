@@ -92,7 +92,7 @@ function calcSpeed(prev, next) {
 
 
 setTimeout(function(){
-// alert("Time's Up! Your Score is " + score ); 
+alert("Time's Up! Your Score is " + score ); 
 }, 30000)
 function reset (){
 $("reset").css("display", "none");
