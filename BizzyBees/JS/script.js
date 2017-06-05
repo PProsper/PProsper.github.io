@@ -3,21 +3,56 @@ $(document).ready(function() {
 });
 
 
-time = 30;
+time = 60;
+// playing = 0;
 score = 0;
-counter = setInterval(timer, 1000);
+countdown = setInterval(timer, 1000);
+
 newScore = document.getElementById("score");
 
 function timer() {
     time = time - 1;
-    if (time <= 0) {
-        clearInterval(counter);
-          return
+    if (time < 1) {
+      clearInterval(countdown);
+
               }
     document.getElementById("time").innerHTML = time + " time";
 }
+// setTimeout(function(){
+//   alert("Time's Up! Your Score is " + score );
+// }, 30000)
 
 
+// function startpause(){
+//   if(running == 0){
+//     running = 1;
+//     incrament();
+//     document.getElementById("startpause").innerHTML = "Pause";
+//   }else{
+//     running = 0;
+//     document.getElementById("startpause").innerHTML ="Resume";
+//   }
+// }
+//
+// function reset(){
+//   running = 0;
+//   time = 0;
+//   document.getElementById("startpause").innerHTML = "Start";
+//   document.getElementById("output").innerHTML =" 00:00:00"; //this resets output to the start
+// }
+//
+// function incrament(){
+//   if running == 1){
+//     setTimeout(function(){
+//       time++;
+//       var mins = Math.floor(time/10/60);
+//       var sec = Math.floor(time/10);
+//       var tenths = time % 10;
+//       document.getElementById("output").innerHTML=mins + ";" + secs + ";" + tenths;
+//       incrament();
+//     }, 100);
+//   }
+// }
 
 /*
 class Mouse {
@@ -91,13 +126,12 @@ function calcSpeed(prev, next) {
 }
 
 
-// setTimeout(function(){
-// alert("Time's Up! Your Score is " + score ); 
-// }, 30000)
-function reset (){
-$("reset").css("display", "none");
-$('#reset').click( function reset() {
-document.getElementById("time").value =30;
-document.getElementById("score").value =0;
+function reset(){
+  timer();
+  // var time = 30; playing = 0; score = 0;
+// $("reset").css("display", "none");
+$('#reset').click(function reStart() {
+document.getElementById("time").innerHTML = time + "time";
+document.getElementById("score").innerHTML= 0;
 });
 }
