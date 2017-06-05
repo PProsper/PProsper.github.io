@@ -1,0 +1,177 @@
+
+
+html {
+  background-color: #EBF5FB;
+  font-family: 'Oxygen', sans-serif;
+
+}
+/*#bar{
+  background-color: #EBF5FB;
+  width: 100%;
+  font-family: 'Merriweather Sans', sans-serif;
+  display: inline-block;
+}*/
+
+.port{
+  position: absolute;
+  margin-left: 10%;
+  /*height: 60px;
+  width: 60px;*/
+  border: solid 3px;
+  border-radius: 15px;
+  border-color: rgba(245, 236,248, 1);
+  height: 160px;
+  width: 180px;
+}
+
+
+/*.links li{
+  display: inline-block;
+  list-style: none;
+  font-size: 14pt;
+  border-radius: 5px;
+  background-color: rgba(245, 236,248, 1);
+  box-shadow: 2px 1px 12px .5px;
+  padding: 10px 10px 10px 10px;
+}*/
+/*li a{
+      text-decoration:none;
+      color: black;
+}*/
+body{
+  background-size: 100%;
+  margin: auto;
+}
+
+#back{
+  height: 65em;
+  border-radius: 25px;
+  margin: 0% 2% 4% 2.5%;
+  background-color: rgba(255, 255, 255, .5);
+  box-shadow: 1px 0px 40px 2px;
+  /*font-family: 'Merriweather Sans', sans-serif;*/
+}
+
+h1{
+  padding: 2%;
+  text-align: center;
+  }
+
+  h2, h5{
+  text-align: center;
+
+}
+#cont{
+  margin: 15% 65% 0% 5%;
+  line-height: 1.5;
+  font-size: 16pt;
+  /*font-family: 'Merriweather Sans', sans-serif;*/
+  background-color: rgba(149, 149, 149, 0);
+  display: flex;
+}
+p{
+  align-content: center;
+  /*font-weight: bold;*/
+
+}
+
+/*#goal{
+  position: absolute;
+  justify-content: space-around;
+  top: 105%;
+  left: 42%;
+  right: 32%;
+  display: inline-block;
+  border: 1px;
+  border-style: solid;
+  padding: 2px 2px 2px 2px;
+
+}*/
+
+#mis{
+  height: 45%;
+  width: 28%;
+  position: absolute;
+  justify-content: space-around;
+  top: 20%;
+  left: 38%;
+  right: 32%;
+  border: 1px;
+  /*border-style: solid;
+  padding: 5px 5px 5px 5px;*/
+}
+#vis{
+  height: 45%;
+  width: 28%;
+  position: absolute;
+  justify-content: space-around;
+  top: 20%;
+  left: 68%;
+  right: 5%;
+  /*display: inline-block;*/
+  border: 1px;
+  /*border-style: solid;
+  padding: 5px 5px 5px 5px;*/
+
+}
+#intro, #exp, #con{
+padding: 2px 2px 2px 2px;
+}
+
+.logos{
+  display: inline-block;
+  height: 40px;
+  width: 40px;
+  padding: 4px;
+}
+
+#skill{
+  height: 70%;
+  width: 53%;
+  position: absolute;
+  /*display: block;*/
+  left: 42%;
+  right: 5%;
+  top: 65%;
+  /*border: 1px;
+  border-style: solid;*/
+
+}
+#uls{
+  margin-top: 0%;
+  margin-left: 10%;
+  display: flex;
+}
+
+#design, #code, #db{
+padding: 0% 5% 5% 5%;
+align-items: center;
+}
+
+ul li {
+    list-style: none;
+    /*display: inline-block;*/
+}
+.meter{
+    display: inline-block;
+    float: top;
+}
+/*.lev{
+  display: inline-block;
+  float: top;
+}*/
+/*#soc{
+  height: 30%;
+  width: 20%;
+  position: absolute;
+  display: inline-block;
+  left: 45%;
+  top: 145%;
+  border: 2px;
+  border-style: dashed;
+  padding: 5px 5px 5px 5px;
+}*/
+
+/*@media (min-width : 480px){
+
+}*/
