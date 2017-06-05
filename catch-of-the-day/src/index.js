@@ -11,7 +11,7 @@ const repo = `/${window.location.pathname.split('/')[1]}`;
 
 const Root = () => {
   return(
-      <BrowserRouter basename={repo}>
+      <BrowserRouter basename="/catch-of-the-day/public">
         <div>
           <Match exactly pattern="/" component={StorePicker} />
           <Match pattern="/store/:storeId" component={App} />

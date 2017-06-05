@@ -79,7 +79,7 @@ componentDidMount() {
     return (
       <nav className="login">
         <h2>Inventory</h2>
-        <p>Sign in to manage your store's inventory</p>
+        <p>Sign in to manage your stores inventory</p>
         <button className="github" onClick={() => this.authenticate('github')}>Log In with Github</button>
         <button className="facebook" onClick={() => this.authenticate('facebook')} >Log In with Facebook</button>
         <button className="twitter" onClick={() => this.authenticate('twitter')} >Log In with Twitter</button>
@@ -151,4 +151,3 @@ Inventory.propTypes ={
 };
 
 export default Inventory;
-
