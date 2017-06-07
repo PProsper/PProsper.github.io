@@ -17,8 +17,8 @@ html{
 }
 
 #mouse {
-  width: 600px;
-  height:460px;
+  width: 100px;
+  height:90px;
   margin-top: 80%;
 /*    background-color: red;*/
       position: fixed;

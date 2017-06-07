@@ -117,7 +117,7 @@ function calcSpeed(prev, next) {
 
     var greatest = x > y ? x : y;
 
-    var speedModifier = .50;
+    var speedModifier = .20;
 
     var speed = Math.ceil(greatest / speedModifier);
 
@@ -125,13 +125,12 @@ function calcSpeed(prev, next) {
 
 }
 
-
 function reset(){
   timer();
   // var time = 30; playing = 0; score = 0;
 // $("reset").css("display", "none");
-$('#reset').click(function reStart() {
-document.getElementById("time").innerHTML = time + "time";
-document.getElementById("score").innerHTML= 0;
-});
+// $('#reset').click(function reStart() {
+// document.getElementById("time").innerHTML = time + "time";
+// document.getElementById("score").innerHTML= 0;
+// });
 }
