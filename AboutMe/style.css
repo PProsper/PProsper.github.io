@@ -19,25 +19,11 @@ html {
   width: 60px;*/
   border: solid 3px;
   border-radius: 15px;
-  border-color: rgba(245, 236,248, 1);
+  border-color: rgba(21, 67, 96, .5);
   height: 160px;
   width: 180px;
 }
 
-
-/*.links li{
-  display: inline-block;
-  list-style: none;
-  font-size: 14pt;
-  border-radius: 5px;
-  background-color: rgba(245, 236,248, 1);
-  box-shadow: 2px 1px 12px .5px;
-  padding: 10px 10px 10px 10px;
-}*/
-/*li a{
-      text-decoration:none;
-      color: black;
-}*/
 body{
   background-size: 100%;
   margin: auto;
@@ -55,12 +41,12 @@ body{
 h1{
   padding: 2%;
   text-align: center;
-  }
+}
 
   h2, h5{
   text-align: center;
-
 }
+
 #cont{
   margin: 15% 65% 0% 5%;
   line-height: 1.5;
@@ -69,24 +55,11 @@ h1{
   background-color: rgba(149, 149, 149, 0);
   display: flex;
 }
+
 p{
   align-content: center;
   /*font-weight: bold;*/
-
 }
-
-/*#goal{
-  position: absolute;
-  justify-content: space-around;
-  top: 105%;
-  left: 42%;
-  right: 32%;
-  display: inline-block;
-  border: 1px;
-  border-style: solid;
-  padding: 2px 2px 2px 2px;
-
-}*/
 
 #mis{
   height: 45%;
@@ -100,6 +73,7 @@ p{
   /*border-style: solid;
   padding: 5px 5px 5px 5px;*/
 }
+
 #vis{
   height: 45%;
   width: 28%;
@@ -135,8 +109,8 @@ padding: 2px 2px 2px 2px;
   top: 65%;
   /*border: 1px;
   border-style: solid;*/
-
 }
+
 #uls{
   margin-top: 0%;
   margin-left: 10%;
@@ -152,26 +126,8 @@ ul li {
     list-style: none;
     /*display: inline-block;*/
 }
+
 .meter{
     display: inline-block;
     float: top;
 }
-/*.lev{
-  display: inline-block;
-  float: top;
-}*/
-/*#soc{
-  height: 30%;
-  width: 20%;
-  position: absolute;
-  display: inline-block;
-  left: 45%;
-  top: 145%;
-  border: 2px;
-  border-style: dashed;
-  padding: 5px 5px 5px 5px;
-}*/
-
-/*@media (min-width : 480px){
-
-}*/
